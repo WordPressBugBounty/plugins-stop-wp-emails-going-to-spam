@@ -3,7 +3,7 @@
         'name' => 'fullworks/stop-wp-emails-going-to-spam',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'aee058e3f7152ba1dd4f58b912b3252a0143b4a8',
+        'reference' => 'b340017ef6a627999ea3441d701705fbadb5a48a',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../../',
         'aliases' => array(),
@@ -21,6 +21,17 @@
             ),
             'dev_requirement' => false,
         ),
+        'alanef/wp_autoloader' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '4ba13363175aef597d3f02a563009130dcedb0fb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../alanef/wp_autoloader',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'composer/installers' => array(
             'pretty_version' => 'v1.0.12',
             'version' => '1.0.12.0',
@@ -33,7 +44,7 @@
         'fullworks/stop-wp-emails-going-to-spam' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'aee058e3f7152ba1dd4f58b912b3252a0143b4a8',
+            'reference' => 'b340017ef6a627999ea3441d701705fbadb5a48a',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../../',
             'aliases' => array(),
