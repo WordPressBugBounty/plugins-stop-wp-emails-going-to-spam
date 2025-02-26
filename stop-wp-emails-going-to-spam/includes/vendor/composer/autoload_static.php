@@ -10,10 +10,7 @@ class ComposerStaticInitc5767ecd02f2b066d3b55eefdbbd7d59
         'F' => 
         array (
             'Fullworks_WP_Autoloader\\' => 24,
-        ),
-        'A' => 
-        array (
-            'AlanEFPluginDonation\\' => 21,
+            'Fullworks_Free_Plugin_Lib\\' => 26,
         ),
     );
 
@@ -22,9 +19,9 @@ class ComposerStaticInitc5767ecd02f2b066d3b55eefdbbd7d59
         array (
             0 => __DIR__ . '/..' . '/alanef/wp_autoloader/src',
         ),
-        'AlanEFPluginDonation\\' => 
+        'Fullworks_Free_Plugin_Lib\\' => 
         array (
-            0 => __DIR__ . '/..' . '/alanef/plugindonation_lib',
+            0 => __DIR__ . '/..' . '/alanef/free_plugin_lib/src',
         ),
     );
 

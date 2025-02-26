@@ -7,5 +7,5 @@ $baseDir = dirname(dirname($vendorDir));
 
 return array(
     'Fullworks_WP_Autoloader\\' => array($vendorDir . '/alanef/wp_autoloader/src'),
-    'AlanEFPluginDonation\\' => array($vendorDir . '/alanef/plugindonation_lib'),
+    'Fullworks_Free_Plugin_Lib\\' => array($vendorDir . '/alanef/free_plugin_lib/src'),
 );

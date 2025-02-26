@@ -3,28 +3,26 @@
         'name' => 'fullworks/stop-wp-emails-going-to-spam',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'b340017ef6a627999ea3441d701705fbadb5a48a',
+        'reference' => 'b2f5419f6acbcc39e1983a1a71cc6ffae3aee9d6',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
-        'alanef/plugindonation_lib' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'a265d21d2f486661eb5e852309a76e100317f1c5',
+        'alanef/free_plugin_lib' => array(
+            'pretty_version' => 'v1.0.1',
+            'version' => '1.0.1.0',
+            'reference' => 'ed52c33c73999a1fe1ee5a1b00581b9462111ac8',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../alanef/plugindonation_lib',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
+            'install_path' => __DIR__ . '/../alanef/free_plugin_lib',
+            'aliases' => array(),
             'dev_requirement' => false,
         ),
         'alanef/wp_autoloader' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4ba13363175aef597d3f02a563009130dcedb0fb',
+            'reference' => 'ab82c9014dd47efbe72cb3612c2a57715bcb212d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../alanef/wp_autoloader',
             'aliases' => array(
@@ -44,7 +42,7 @@
         'fullworks/stop-wp-emails-going-to-spam' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b340017ef6a627999ea3441d701705fbadb5a48a',
+            'reference' => 'b2f5419f6acbcc39e1983a1a71cc6ffae3aee9d6',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../../',
             'aliases' => array(),
